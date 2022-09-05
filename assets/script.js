@@ -1,5 +1,5 @@
 const button = document.getElementById('calculate');
-button.onclick = async () => {
+button.onclick = () => {
     const block = document.getElementById('block');
     block.innerHTML = '';
 
